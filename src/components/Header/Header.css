@@ -1,7 +1,27 @@
-
-
-
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .logo{
-    width: 200px !important;
-    height: 200px !important;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    color: white;
+}
+
+.menu li{
+    
+}
+
+.menu li:hover{
+    color: var(--orange);
+    cursor: pointer;
 }
