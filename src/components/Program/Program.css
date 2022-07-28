@@ -1,0 +1,66 @@
+.programs{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0.2rem;
+}
+
+.programs-header{
+    display: flex;
+    gap: 5rem;
+    font-size: 3rem;
+    justify-content: center;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.box{
+    background-color: gray;
+    color: #fff;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.box .icon{
+    font-size: 2rem;
+}
+
+.box span:nth-child(2){
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.box span:nth-child(3){
+    font-size: 0.9rem;
+    line-height: 25px;
+}
+
+.box .join{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    text-transform: capitalize;
+}
+
+.join span:nth-child(2){
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.box:hover{
+    cursor: pointer;
+    background: var(--plainCard);
+}

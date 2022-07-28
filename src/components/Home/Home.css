@@ -34,15 +34,18 @@
     border-radius: 3rem;
     z-index: 0;
     transition: 2s all;
-    animation: moving 5s 1s infinite;
+    animation: moving 10s 1s infinite;
 }
 
 @keyframes moving{
-    from{
+    0%{
         transform: translateX(250%);
     }
-    to{
+    50%{
         transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(250%);
     }
 }
 
