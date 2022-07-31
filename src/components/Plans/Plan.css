@@ -1,0 +1,76 @@
+.plans{
+    margin-top: -4rem;
+    padding: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.plans-header{
+    display: flex;
+    gap: 5rem;
+    font-size: 3rem;
+    justify-content: center;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    font-style: italic;
+    margin-top: -4rem;
+}
+
+.plan{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.plan>:nth-child(2){
+    transform: scale(1.1);
+    background-color: var(--orange);
+}
+
+.package{
+    padding: 2rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: var(--caloryCard);
+    cursor: pointer;
+}
+
+
+.package>:nth-child(1){
+    color: var(--orange);
+    font-size: 2rem;
+}
+
+.package>:nth-child(2){
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.center>:nth-child(1){
+    color: #fff;
+}
+
+.price{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.features{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.features div{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.features div>:nth-child(1){
+    font-size: 1.5rem;
+}
