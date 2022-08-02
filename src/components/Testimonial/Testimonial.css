@@ -1,0 +1,25 @@
+.testy{
+    display: flex;
+    gap: 1rem;
+    padding: 0 2rem;
+}
+
+.left-s{
+    display: flex;
+    flex: 1 1;
+    gap: 2rem;
+    flex-direction: column;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.left-s>:nth-child(1){
+    color: var(--orange);
+    font-weight: bold;
+}
+
+.left-s>:nth-child(2),
+.left-s>:nth-child(3){
+    font-weight: bold;
+    font-size: 3rem;
+}
