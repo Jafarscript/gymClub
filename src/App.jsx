@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home.jsx'
 import Join from './components/Join/Join';
 import Plan from './components/Plans/Plan';
@@ -15,6 +16,7 @@ function App() {
       <Plan />
       <Testimonial />
       <Join />
+      <Footer />
     </div>
   );
 }
