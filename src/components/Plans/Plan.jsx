@@ -33,7 +33,7 @@ const Plan = () => {
             </div>
           </div>
 
-          <div><span>${'See more details ->'}</span></div>
+          <div><span>{'See more details ->'}</span></div>
           <button className="btn">Join Now</button>
 
         </div>
@@ -56,7 +56,7 @@ const Plan = () => {
             </div>
           </div>
 
-          <div><span>${'See more details ->'}</span></div>
+          <div><span>{'See more details ->'}</span></div>
           <button className="btn">Join Now</button>
         </div>
 
@@ -79,7 +79,7 @@ const Plan = () => {
             </div>
           </div>
 
-          <div><span>${'See more details ->'}</span></div>
+          <div><span>{'See more details ->'}</span></div>
           <button className="btn">Join Now</button>
         </div>
       </div>

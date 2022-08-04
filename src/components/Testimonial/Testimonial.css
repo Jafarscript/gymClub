@@ -23,3 +23,56 @@
     font-weight: bold;
     font-size: 3rem;
 }
+
+.left-s>:nth-child(4){
+    text-transform: none;
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+
+.right-s{
+    flex: 1;
+    position: relative;
+}
+
+.right-s img{
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    object-fit: cover;
+    right: 8rem;
+    top: 2rem;
+}
+
+.right-s>:nth-child(1){
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    right: 9rem;
+    top: 0.9rem;
+    border: 1px solid var(--orange);
+}
+
+.right-s>:nth-child(2){
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    background: var(--plainCard);
+    top: 4rem;
+    right: 7rem;
+}
+
+.arrows{
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    bottom: 1rem;
+    left: 3rem;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.arrows>:nth-child(1),.arrows>:nth-child(2){
+    cursor: pointer;
+}
