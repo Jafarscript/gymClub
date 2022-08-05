@@ -5,6 +5,9 @@ import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa'
 const Footer = () => {
   return (
     <div className="footer">
+      <div className="blur blur-f"></div>
+      <div className="blur blur-f2"></div>
+
         <hr />
         <div className='foot'>
         <div className="icons">

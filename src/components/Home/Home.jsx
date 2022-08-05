@@ -5,6 +5,7 @@ import "./Home.css";
 const Home = () => {
   return (
     <div className="home">
+      <div className="blur hero-blur"></div>
       <div className="left-h">
         <Header />
         {/* Best Ads */}

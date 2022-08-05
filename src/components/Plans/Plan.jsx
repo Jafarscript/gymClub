@@ -8,6 +8,8 @@ import "./Plan.css";
 const Plan = () => {
   return (
     <div className="plans">
+      <div className="blur plans-blur"></div>
+      <div className="blur plans-blur2"></div>
       <div className="plans-header">
         <span className="stroke-text">Ready to start</span>
         <span>your journey</span>

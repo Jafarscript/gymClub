@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     gap: 4rem;
+    z-index: 10;
 }
 
 .plans-header{
@@ -22,6 +23,18 @@
     display: flex;
     justify-content: center;
     gap: 3rem;
+}
+
+.plans-blur{
+    width: 32rem;
+    height: 23rem;
+    left: 3rem;
+}
+
+.plans-blur2{
+    width: 32rem;
+    height: 23rem;
+    right: 3rem;
 }
 
 .plan>:nth-child(2){
