@@ -76,3 +76,44 @@
 .arrows>:nth-child(1),.arrows>:nth-child(2){
     cursor: pointer;
 }
+
+@media screen and (max-width: 768px){
+    .testy{
+        flex-direction: column;
+    }
+
+    .left-s>:nth-child(2),
+    .left-s>:nth-child(3){
+        font-size: xx-large;
+    }
+
+    .right-s{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .right-s > div{
+        position: relative;
+        display: none;
+    }
+
+    .right-s> img{
+        top: 0;
+        right: 0;
+        position: relative;
+        align-self: center;
+    }
+
+    .right-s >:last-child{
+        display: flex;
+        bottom: 0;
+        left: 0;
+    }
+
+    .arrows >{
+        margin: 1rem;
+    }
+}

@@ -64,3 +64,17 @@
     cursor: pointer;
     background: var(--plainCard);
 }
+
+@media screen and (max-width: 768px){
+    .programs-header{
+        font-size: x-large;
+        gap: 1rem;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+    .boxes{
+        flex-direction: column;
+    }
+}

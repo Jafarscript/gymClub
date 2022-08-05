@@ -1,6 +1,7 @@
 .home{
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
 }
 
 .left-h{
@@ -169,4 +170,73 @@
     left: 0;
     top: 2px;
     z-index: 2;
+}
+
+@media screen and (max-width: 768px){
+    .home{
+        flex-direction: column;
+    }
+
+    .hero-blur{
+        width: 14rem;
+    }
+
+    .best-ad{
+        margin-top: 0;
+        font-size: small;
+        align-self: center;
+    }
+
+    .hero-text{
+        font-size: xx-large;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-text> div:nth-child(3){
+        font-size: small;
+        font-weight: 200;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+ 
+   .figures div > span:nth-child(1){
+        font-size: large;
+    }
+
+    .figures div > span:nth-child(2){
+        font-size: small;
+    }
+
+    .right-h{
+        position: relative;
+        background: none;
+    }
+
+    .heart{
+        left: 1rem;
+        top: 2rem;
+    }
+
+    .hero-image{
+        position: relative;
+        width: 15rem;
+        left: 7rem;
+        align-self: center;
+        top: 4rem;
+    }
+
+    @keyframes moving{
+        0%{
+            transform: translateX(190%);
+        }
+        50%{
+            transform: translateX(0%);
+        }
+        100%{
+            transform: translateX(190%);
+        }
+    }
+
+
 }
