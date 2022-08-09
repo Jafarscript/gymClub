@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Header from "../Header/Header";
 import "./Home.css";
+import NumberCounter from 'number-counter';
 
 const Home = () => {
   return (
@@ -34,15 +35,17 @@ const Home = () => {
         {/* figures */}
         <div className="figures">
           <div>
-            <span>+140</span>
+            <span>
+              <NumberCounter end={140} preFix='+' delay={4}/>
+            </span>
             <span>experts coaches</span>
           </div>
           <div>
-            <span>+1080</span>
+            <span><NumberCounter end={1080} start={900} preFix='+' delay={4}/></span>
             <span>members joined</span>
           </div>
           <div>
-            <span>+50</span>
+            <span><NumberCounter end={50} preFix='+' delay={4}/></span>
             <span>fitness progress</span>
           </div>
         </div>

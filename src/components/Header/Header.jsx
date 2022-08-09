@@ -12,10 +12,10 @@ const Header = () => {
           </div>
             <ul className={menuOpen ? 'mobile' : 'menu'} onClick={() => setMenuOpen(false)}>
           <li onClick={() => setMenuOpen(false)}><a href="#home">Home</a></li>
-          <li onClick={() => setMenuOpen(false)}><a href="#programs">Programs</a> </li>
-          <li onClick={() => setMenuOpen(false)}><a href="#reason">Why us</a> </li>
-          <li onClick={() => setMenuOpen(false)}><a href="#plan">Plans</a> </li>
-          <li onClick={() => setMenuOpen(false)}><a href="#testy">Testimonials</a> </li>
+          <li onClick={() => setMenuOpen(false)}><a href="#programs">Programs</a></li>
+          <li onClick={() => setMenuOpen(false)}><a href="#reason">Why us</a></li>
+          <li onClick={() => setMenuOpen(false)}><a href="#plan">Plans</a></li>
+          <li onClick={() => setMenuOpen(false)}><a href="#testy">Testimonials</a></li>
         </ul>
         
     </div>
