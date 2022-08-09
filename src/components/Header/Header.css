@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 1;
+    z-index: 100;
     overflow: hidden;
 }
 .logo{
@@ -15,41 +15,65 @@
     display: flex;
     justify-content: space-between;
     gap: 2rem;
-    color: white;
-}
-
-.menu li{
     
 }
 
-.menu li:hover{
+.menu li a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu li a:hover{
     color: var(--orange);
     cursor: pointer;
 }
 
+.ham{
+    color: white;
+    font-size: 1.5rem;
+    position: fixed;
+    display: none;
+}
+
 @media screen and (max-width: 768px){
-    .header{
-        display: block;
-    }
-
-    .ham{
-        color: white;
-        padding: 0.5rem;
-        background-color: var(--appColor);
-    }
-
-    .header > :nth-child(2){
-        float: right;
-    }
     .logo{
         width: 50px;
         height: 50px;
     }
 
+    .ham{
+        display: block;
+        top: 2rem;
+        right: 2rem;
+        z-index: 100;
+    }
+
     .menu{
+        display: none;
+    }
+    .mobile{
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
         flex-direction: column;
         background-color: var(--appColor);
         padding: 2rem;
         gap: 1rem;
+       list-style: none;
+       color: white;
+       z-index: 100;
+       top: 3rem;
+       right: 2rem;
+    }
+
+    .mobile li a:hover{
+        color: var(--orange);
+        cursor: pointer;
+    }
+
+    .mobile li a{
+        color: white;
+        text-decoration: none;
     }
 }

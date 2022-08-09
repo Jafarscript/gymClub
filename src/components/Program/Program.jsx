@@ -1,5 +1,6 @@
 import React from "react";
 import "./Program.css";
+import { motion } from "framer-motion";
 import { FaRunning } from "react-icons/fa";
 import { CgGym } from "react-icons/cg";
 import { AiFillFire } from "react-icons/ai";
@@ -16,7 +17,7 @@ const Program = () => {
         <span className="stroke-text">to shape you</span>
       </div>
       <div className="boxes">
-        <div className="box">
+        <motion.div className="box" initial={{scale: 0.2, opacity: 0}} whileInView={{scale: 1, opacity: 1}}  transition={{duration: 0.5}}>
           <span className="icon">
             <CgGym />
           </span>
@@ -31,8 +32,8 @@ const Program = () => {
               <BsArrowRightShort />
             </span>
           </div>
-        </div>
-        <div className="box">
+        </motion.div>
+        <motion.div className="box" initial={{scale: 0.2, opacity: 0}} whileInView={{scale: 1, opacity: 1}}  transition={{duration: 0.5, delay: 0.1}}>
           <span className="icon">
             <FaRunning />
           </span>
@@ -47,8 +48,8 @@ const Program = () => {
               <BsArrowRightShort />
             </span>
           </div>
-        </div>
-        <div className="box">
+        </motion.div>
+        <motion.div className="box" initial={{scale: 0.2, opacity: 0}} whileInView={{scale: 1, opacity: 1}}  transition={{duration: 0.5, delay: 0.2}}>
           <span className="icon">
             <AiFillFire />
           </span>
@@ -63,8 +64,8 @@ const Program = () => {
               <BsArrowRightShort />
             </span>
           </div>
-        </div>
-        <div className="box">
+        </motion.div>
+        <motion.div className="box" initial={{scale: 0.2, opacity: 0}} whileInView={{scale: 1, opacity: 1}}  transition={{duration: 0.5, delay: 0.3}}>
           <span className="icon">
             <RiHeartPulseLine />
           </span>
@@ -79,7 +80,7 @@ const Program = () => {
               <BsArrowRightShort />
             </span>
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );

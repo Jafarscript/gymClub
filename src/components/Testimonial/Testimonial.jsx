@@ -10,7 +10,7 @@ const Testimonial = () => {
   const dataLength = testimonials.length;
 
   return (
-    <div className="testy">
+    <div className="testy" id='testy'>
         <div className="left-s">
                 <span>Testimonial</span>
                 <span className='stroke-text'>What they</span>

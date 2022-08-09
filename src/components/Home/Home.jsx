@@ -1,17 +1,18 @@
 import React from "react";
+import { motion } from "framer-motion";
 import Header from "../Header/Header";
 import "./Home.css";
 
 const Home = () => {
   return (
-    <div className="home">
+    <div className="home" id="home">
       <div className="blur hero-blur"></div>
       <div className="left-h">
         <Header />
         {/* Best Ads */}
         <div className="best-ad">
+        <span>the best fitness club in the town</span>
           <div></div>
-          <span>the best fitness club in the town</span>
         </div>
 
         {/* Home text */}
@@ -53,13 +54,13 @@ const Home = () => {
         </div>
       </div>
       <div className="right-h">
-        <button className="btn">Join Now</button>
+        <a  href='#join-us'className="btn">Join Now</a>
 
-        <div className="heart">
+        <motion.div className="heart" initial={{translateX: 100}} whileInView={{translateX: 0}} transition={{duration: 0.5}}>
           <img src="https://res.cloudinary.com/dvo8xhx6r/image/upload/v1658524427/2250px-Love_Heart_symbol.svg_s3ture.png" alt="heart-rate" />
           <span>Heart Rate</span>
           <span>116 bpm</span>
-        </div>
+        </motion.div>
 
         <img src="https://res.cloudinary.com/dvo8xhx6r/image/upload/v1658525145/fashionable-handsome-young-man-with-hairstyle-tattoo-his-shoulder-tying-his-laces-sneakers-street-sunset_338491-15298_yli5h4-removebg-preview_palizp.png" alt="guy" className="hero-image" />
 

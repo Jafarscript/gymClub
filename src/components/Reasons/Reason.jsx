@@ -5,7 +5,7 @@ import {SiAdidas, SiNewbalance, SiNike} from 'react-icons/si'
 
 const Reason = () => {
   return (
-    <div className="reason">
+    <div className="reason" id='reason'>
         <div className="left-r">
             <img src="https://res.cloudinary.com/dvo8xhx6r/image/upload/v1659044314/HTB18MzlXffsK1RjSszgq6yXzpXad_axzpzm.jpg" alt='A man in a gym' />
             <img src="https://res.cloudinary.com/dvo8xhx6r/image/upload/v1659044319/istock-908985656-0_zcngdj.jpg" alt='A man in a gym' />
